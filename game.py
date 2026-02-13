@@ -29,7 +29,8 @@ def main(page: ft.Page):
                ),
                ft.Image(
                    src="images/gatinho.jpg",
-                   height=200
+                   height=200,
+                   border_radius= 10
                ),
                ft.Row(
                    controls=[
